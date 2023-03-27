@@ -207,6 +207,38 @@ header h1{
     height: 15.3rem;
     margin-left: 0.7rem;
 }
+.titulo h1{
+    font-size: 1.2rem;
+    margin-bottom: -1rem;
+    margin-top: -1rem;
+}
+.cuerpo{
+    display: grid;
+}
+.detalle div{
+    margin-top: 1rem;
+}
+.detalles h5{
+    font-size: 0.8rem;
+}
+.detalles p{
+    font-size: 0.8rem;
+    margin-left: 1.5rem;
+}
+.mail h5{
+    font-size: 0.8rem;
+}
+.mail a{
+    font-size: 0.8rem;
+}
+.sociales h5{
+    font-size: 0.8rem;
+}
+.section img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.2rem;
+}
 }
 
 /* TABLET */
