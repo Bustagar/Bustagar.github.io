@@ -7,7 +7,7 @@
 /* INDEX */
 
 .perfil{
-    min-width: 550px;
+    width: auto;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -93,7 +93,7 @@ object{
     font-size: 1.3rem;
 }
 .cuerpo{
-    min-width: 550px;
+    width: auto;
     height: 100vh;
     text-transform: capitalize;
     background-image: url(./Images/fonfo2.jpg);
@@ -102,27 +102,50 @@ object{
     background-size: cover;
     color: white;
 }
-.detalle div{
+.detalles{
+    width: 50rem;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
     margin-left: 1rem;
-    display: grid;
-    grid-template-columns: 15% 1fr;
-    margin-top: 2rem;
 }
-.detalle h5{
+.detalles p, h5{
     font-size: 1.1rem;
+    margin-left: 1rem;
 }
-.detalle p{
-    font-size: 1.1rem;
+.mail{
+    width: 50rem;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
     margin-left: 1rem;
 }
 .mail a{
     text-decoration: none;
     color: #85ac19;
+    font-size: 1.1rem;
+    margin-left: 1rem;
 }
 .titulo h1{
     color: #85ac19;
     text-decoration:underline;
     text-align: center;
+}
+.sociales{
+    width: 50rem;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+.sociales h5{
+    font-size: 1.1rem;
 }
 .section img{
     width: 3rem;
