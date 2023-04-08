@@ -186,19 +186,37 @@ object{
 }
 .imagenes img{
     width: 15rem;
-}
-/* MOBILE */
-@media screen and (min-width: 320px) and (max-width: 740px) {
-}
-
-/* TABLET */
-@media screen and (min-width:741px) and (max-width:930px){
-
+    height: 10rem;
 }
 
 
+/* EXPERIENCIA */
 
-/* ESCRITORIO */
-@media screen and (min-width:931px){
-
+.detalle3{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.experiencia{
+    width: auto;
+    height: auto;
+    margin: 3rem 0rem 0rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.lista{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+ul{
+    margin-left: 2rem;
+}
+ul li{
+    margin-top: 1rem;
 }
