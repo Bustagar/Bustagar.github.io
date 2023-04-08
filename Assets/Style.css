@@ -63,40 +63,36 @@ object{
     height: 50px;
     border-radius: 50%;
 }
-
-/* PERFIL */
-
-.section{
-    display: flex;
-    flex-direction: row;
-}
-.links{
-    width: 3rem;
-    height: 3rem;
-}
-#link{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 10%;
-}
 .icon a{
     margin-left: 9rem;
     font-size: 1.3rem;
     text-decoration: none;
     color: #363B29;
     text-transform: uppercase;
-}   
+} 
+
+/* PERFIL */
+
+
 .menu a{
     margin-left: 1rem;
     text-decoration: none;
     color: #85ac19;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+}
+.detalle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 .cuerpo{
     width: auto;
-    height: 100vh;
+    height: auto;
     text-transform: capitalize;
-    background-image: url(./Images/fonfo2.jpg);
+    background-image: url(./Images/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,7 +100,7 @@ object{
 }
 .detalles{
     width: 50rem;
-    height: 4rem;
+    height: 4.5rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -112,12 +108,12 @@ object{
     margin-left: 1rem;
 }
 .detalles p, h5{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-left: 1rem;
 }
 .mail{
     width: 50rem;
-    height: 4rem;
+    height: 3.7rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -127,7 +123,7 @@ object{
 .mail a{
     text-decoration: none;
     color: #85ac19;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-left: 1rem;
 }
 .titulo h1{
@@ -137,7 +133,7 @@ object{
 }
 .sociales{
     width: 50rem;
-    height: 4rem;
+    height: 3rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -152,56 +148,19 @@ object{
     height: 3rem;
     margin: 1rem;
     border-radius: 15%;
+    cursor: pointer;
 }
-.imagenes{
+.section{
     width: auto;
-    height: 50vh;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-end;
-}
-.imagenes img{
-    width: 15rem;
-    height: 10rem;
-}
-.experiencia{
-    font-size: 1.1rem;
-    margin-left: 1rem;
-    padding-bottom: 3rem;
-    text-decoration: underline;
-}
-.aptitudes{
-    padding-bottom: 1rem;
-    color: #85ac19;
-}
-.lista{
-    font-size: 1.1rem;
-    margin-left: 2rem;
-}
-.lista ul{
-    list-style-type: circle;
-}
-.lista li{
-    padding-bottom: 0.5rem;
-}
-.hobbies{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    padding-top: 2rem;
 }
-.hobbies h5{
-    font-size: 1.2rem;
-    text-decoration: underline;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-.hobbies img{
-    width: 25rem;
-    height: 20rem;
-}
+
+/* ESTUDIOS */
+
+
 
 /* MOBILE */
 @media screen and (min-width: 320px) and (max-width: 740px) {
