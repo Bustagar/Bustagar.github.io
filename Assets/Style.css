@@ -220,3 +220,28 @@ ul{
 ul li{
     margin-top: 1rem;
 }
+
+/* HOBBIES */
+
+.hobbies{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.images{
+    width: auto;
+    height: auto;
+    margin-top: 2rem;
+}
+.images h5{
+    font-size: 1.2rem;
+    margin: 1rem 0rem 1rem 0rem;
+    text-align: center;
+}
+.images img{
+    width: 20rem;
+    height: 15rem;
+}
