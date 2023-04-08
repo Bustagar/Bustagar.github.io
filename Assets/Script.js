@@ -14,3 +14,4 @@ myIconLinkedin.addEventListener('click', function windowOpen () {
 myIconWhatsapp.addEventListener('click', function windowOpen () {
     window.open('https://wa.me/5492615920917', '_blank')
 });
+
